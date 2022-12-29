@@ -1,0 +1,6 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "yaml.schemas": {
+        "https://json.schemastore.org/bukkit-plugin.json": "file:///c%3A/_Development/_MCRepos/chatMod/plugin.yml"
+    }
+}

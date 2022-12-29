@@ -1,0 +1,8 @@
+# Enable or disable the cool feature
+cool-feature: true
+
+# The message to display when the cool feature is enabled
+enabled-message: "ChatMod has been enabled!"
+
+# The message to display when the cool feature is disabled
+disabled-message: "ChatMod has been disabled!"

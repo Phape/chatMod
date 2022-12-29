@@ -1,0 +1,12 @@
+name: ChatMod
+version: 1.0
+author: Phape
+description: This is a simple plugin that interacts with the Minecraft Chat.
+
+main: de.phape.ChatMod
+
+commands:
+  mycommand:
+    description: This is a command that does something cool.
+    usage: /mycommand <arg1> [arg2]
+    permission: myplugin.command.mycommand
