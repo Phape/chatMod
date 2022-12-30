@@ -22,7 +22,7 @@ public class ChatMod extends JavaPlugin {
         // This method is called when the plugin is enabled
         Bukkit.getLogger().info(config.getString("enabled-message"));
 
-        playerChatListener = new PlayerChatListener();
+        playerChatListener = new PlayerChatListener(this);
         playerJoinListener = new PlayerJoinListener();
         getServer().getPluginManager().registerEvents(playerChatListener, this);
         getServer().getPluginManager().registerEvents(playerJoinListener, this);
