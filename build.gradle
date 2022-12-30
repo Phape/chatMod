@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'de.phape'
+version '1.0.0'
+description 'A simple plugin that interacts with the Minecraft Chat.'
+
+repositories {
+    maven {
+        url = uri("https://repo.papermc.io/repository/maven-public/")
+    }
+}
+
+dependencies {
+    compileOnly("io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT")
+}
+
+java {
+    toolchain.languageVersion.set(JavaLanguageVersion.of(17))
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'de.phape.ChatMod'
+    }
+}
